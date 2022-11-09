@@ -22,16 +22,16 @@ const Header = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <NavLink className="nav-link active" aria-current="page" to='/main/home'>
+              <NavLink className="nav-link active" aria-current="page" to='/home'>
                 Home Page
               </NavLink>
-              <a class="nav-link" href="/main/register">
+              <a class="nav-link" href="/register">
                 Register
               </a>
-              <a class="nav-link" href="login">
+              <a class="nav-link" href="/login">
                 Login
               </a>
-              <a class="nav-link" href="/main/contact-us">
+              <a class="nav-link" href="/contactus">
                 ContactUs
               </a>
               {/* <a class="nav-link" href="/main/reset-password">
