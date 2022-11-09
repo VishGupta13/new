@@ -25,9 +25,9 @@ const Header = () => {
               <NavLink className="nav-link active" aria-current="page" to='/home'>
                 Home Page
               </NavLink>
-              <a class="nav-link" href="/register">
+              {/* <a class="nav-link" href="/register">
                 Register
-              </a>
+              </a> */}
               <a class="nav-link" href="/login">
                 Login
               </a>
